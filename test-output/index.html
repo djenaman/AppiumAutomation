@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">3 suites</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-TestSuite_(1)">
+              <span class="suite-name border-passed">TestSuite (1)</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-TestSuite_(1)">
+                    <span>D:\DipakWS\AppiumInternalAssessment\WebApp.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-TestSuite_(1)">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-TestSuite_(1)">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-TestSuite_(1)">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-TestSuite_(1)">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-TestSuite_(1)">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-TestSuite_(1)">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestSuite_(1)" class="hide-methods passed suite-TestSuite_(1)"> (hide)</a> <!-- hide-methods passed suite-TestSuite_(1) -->
+                      <a href="#" panel-name="suite-TestSuite_(1)" class="show-methods passed suite-TestSuite_(1)"> (show)</a> <!-- show-methods passed suite-TestSuite_(1) -->
+                    </span>
+                    <div class="method-list-content passed suite-TestSuite_(1)">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite_(1)" title="com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases" hash-for-method="testMobWebEditProfile(TMWEP1, {TestMethodName=testMobWebEditProfile, TestCondition=TMWEP1})">testMobWebEditProfile(TMWEP1, {TestMethodName=testMobWebEditProfile, TestCondition=TMWEP1})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite_(1)" title="com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases" hash-for-method="testMobWebExistingUserLogin(TMWEU1, {TestMethodName=testMobWebExistingUserLogin, TestCondition=TMWEU1})">testMobWebExistingUserLogin(TMWEU1, {TestMethodName=testMobWebExistingUserLogin, TestCondition=TMWEU1})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite_(1)" title="com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases" hash-for-method="testMobWebSearchAddWishlist(TMWAW1, {TestMethodName=testMobWebSearchAddWishlist, TestCondition=TMWAW1})">testMobWebSearchAddWishlist(TMWAW1, {TestMethodName=testMobWebSearchAddWishlist, TestCondition=TMWAW1})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite_(1)" title="com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases" hash-for-method="testMobWebUserRegistration(TMWUR1, {TestMethodName=testMobWebUserRegistration, TestCondition=TMWUR1})">testMobWebUserRegistration(TMWUR1, {TestMethodName=testMobWebUserRegistration, TestCondition=TMWUR1})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestSuite_(1) -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-TestSuite_(0)">
+              <span class="suite-name border-passed">TestSuite (0)</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-TestSuite_(0)">
+                    <span>D:\DipakWS\AppiumInternalAssessment\NativeApp.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-TestSuite_(0)">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-TestSuite_(0)">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-TestSuite_(0)">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-TestSuite_(0)">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-TestSuite_(0)">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-TestSuite_(0)">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestSuite_(0)" class="hide-methods passed suite-TestSuite_(0)"> (hide)</a> <!-- hide-methods passed suite-TestSuite_(0) -->
+                      <a href="#" panel-name="suite-TestSuite_(0)" class="show-methods passed suite-TestSuite_(0)"> (show)</a> <!-- show-methods passed suite-TestSuite_(0) -->
+                    </span>
+                    <div class="method-list-content passed suite-TestSuite_(0)">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite_(0)" title="com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases" hash-for-method="testExistMobUserLogin(TMUL1, {TestMethodName=testExistMobUserLogin, TestCondition=TMUL1})">testExistMobUserLogin(TMUL1, {TestMethodName=testExistMobUserLogin, TestCondition=TMUL1})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite_(0)" title="com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases" hash-for-method="testMobUserRegistration(TMUR1, {TestMethodName=testMobUserRegistration, TestCondition=TMUR1})">testMobUserRegistration(TMUR1, {TestMethodName=testMobUserRegistration, TestCondition=TMUR1})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite_(0)" title="com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases" hash-for-method="testMobileChangePassword(TMCP1, {TestMethodName=testMobileChangePassword, TestCondition=TMCP1})">testMobileChangePassword(TMCP1, {TestMethodName=testMobileChangePassword, TestCondition=TMCP1})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite_(0)" title="com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases" hash-for-method="testMobileUpdateProfile(TMUP1, {TestMethodName=testMobileUpdateProfile, TestCondition=TMUP1})">testMobileUpdateProfile(TMUP1, {TestMethodName=testMobileUpdateProfile, TestCondition=TMUP1})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestSuite_(0) -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestSuite" class="panel TestSuite">
+        </div> <!-- panel TestSuite -->
+        <div panel-name="suite-TestSuite_(1)" class="panel TestSuite_(1)">
+          <div class="suite-TestSuite_(1)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMobWebEditProfile(TMWEP1, {TestMethodName=testMobWebEditProfile, TestCondition=TMWEP1})">
+                  </a> <!-- testMobWebEditProfile(TMWEP1, {TestMethodName=testMobWebEditProfile, TestCondition=TMWEP1}) -->
+                  <span class="method-name">testMobWebEditProfile</span>
+                  <span class="parameters">(TMWEP1, {TestMethodName=testMobWebEditProfile, TestCondition=TMWEP1})</span>
+                  <em>
+(Script will edit an existing user profile in mobile web app)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMobWebExistingUserLogin(TMWEU1, {TestMethodName=testMobWebExistingUserLogin, TestCondition=TMWEU1})">
+                  </a> <!-- testMobWebExistingUserLogin(TMWEU1, {TestMethodName=testMobWebExistingUserLogin, TestCondition=TMWEU1}) -->
+                  <span class="method-name">testMobWebExistingUserLogin</span>
+                  <span class="parameters">(TMWEU1, {TestMethodName=testMobWebExistingUserLogin, TestCondition=TMWEU1})</span>
+                  <em>
+(Script will perform a existing user login in mobile web app)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMobWebSearchAddWishlist(TMWAW1, {TestMethodName=testMobWebSearchAddWishlist, TestCondition=TMWAW1})">
+                  </a> <!-- testMobWebSearchAddWishlist(TMWAW1, {TestMethodName=testMobWebSearchAddWishlist, TestCondition=TMWAW1}) -->
+                  <span class="method-name">testMobWebSearchAddWishlist</span>
+                  <span class="parameters">(TMWAW1, {TestMethodName=testMobWebSearchAddWishlist, TestCondition=TMWAW1})</span>
+                  <em>
+(Script will search a produt and add to wishlist)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMobWebUserRegistration(TMWUR1, {TestMethodName=testMobWebUserRegistration, TestCondition=TMWUR1})">
+                  </a> <!-- testMobWebUserRegistration(TMWUR1, {TestMethodName=testMobWebUserRegistration, TestCondition=TMWUR1}) -->
+                  <span class="method-name">testMobWebUserRegistration</span>
+                  <span class="parameters">(TMWUR1, {TestMethodName=testMobWebUserRegistration, TestCondition=TMWUR1})</span>
+                  <em>
+(Script will perform a new user registration in mobile web app)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite_(1)-class-passed -->
+        </div> <!-- panel TestSuite_(1) -->
+        <div panel-name="suite-TestSuite_(0)" class="panel TestSuite_(0)">
+          <div class="suite-TestSuite_(0)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testExistMobUserLogin(TMUL1, {TestMethodName=testExistMobUserLogin, TestCondition=TMUL1})">
+                  </a> <!-- testExistMobUserLogin(TMUL1, {TestMethodName=testExistMobUserLogin, TestCondition=TMUL1}) -->
+                  <span class="method-name">testExistMobUserLogin</span>
+                  <span class="parameters">(TMUL1, {TestMethodName=testExistMobUserLogin, TestCondition=TMUL1})</span>
+                  <em>
+(Script will login to an existing user id based on data provided)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMobUserRegistration(TMUR1, {TestMethodName=testMobUserRegistration, TestCondition=TMUR1})">
+                  </a> <!-- testMobUserRegistration(TMUR1, {TestMethodName=testMobUserRegistration, TestCondition=TMUR1}) -->
+                  <span class="method-name">testMobUserRegistration</span>
+                  <span class="parameters">(TMUR1, {TestMethodName=testMobUserRegistration, TestCondition=TMUR1})</span>
+                  <em>
+(Script will create a new user based on the data provided)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMobileChangePassword(TMCP1, {TestMethodName=testMobileChangePassword, TestCondition=TMCP1})">
+                  </a> <!-- testMobileChangePassword(TMCP1, {TestMethodName=testMobileChangePassword, TestCondition=TMCP1}) -->
+                  <span class="method-name">testMobileChangePassword</span>
+                  <span class="parameters">(TMCP1, {TestMethodName=testMobileChangePassword, TestCondition=TMCP1})</span>
+                  <em>
+(Script will update the current passowrd and relogin with new password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMobileUpdateProfile(TMUP1, {TestMethodName=testMobileUpdateProfile, TestCondition=TMUP1})">
+                  </a> <!-- testMobileUpdateProfile(TMUP1, {TestMethodName=testMobileUpdateProfile, TestCondition=TMUP1}) -->
+                  <span class="method-name">testMobileUpdateProfile</span>
+                  <span class="parameters">(TMUP1, {TestMethodName=testMobileUpdateProfile, TestCondition=TMUP1})</span>
+                  <em>
+(Script will login and update the profile data as per data provided)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite_(0)-class-passed -->
+        </div> <!-- panel TestSuite_(0) -->
+        <div panel-name="test-xml-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\DipakWS\AppiumInternalAssessment\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;TestSuite&quot;&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;./NativeApp.xml&quot;/&gt;
+    &lt;suite-file path=&quot;./WebApp.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- TestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-TestSuite_(1)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\DipakWS\AppiumInternalAssessment\WebApp.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;TestSuite (1)&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test Mobile Web App Flow&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test Mobile Web App Flow --&gt;
+&lt;/suite&gt; &lt;!-- TestSuite (1) --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-TestSuite_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\DipakWS\AppiumInternalAssessment\NativeApp.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;TestSuite (0)&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test Mobile Native App Flow&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test Mobile Native App Flow --&gt;
+&lt;/suite&gt; &lt;!-- TestSuite (0) --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestSuite_(1)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestSuite (1)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test Mobile Web App Flow (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestSuite_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestSuite (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test Mobile Native App Flow (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestSuite_(1)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestSuite (1)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestSuite_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestSuite (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestSuite');
+function tableData_TestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['TestSuite']= { tableData: data, tableDiv: 'times-div-TestSuite'}
+return data;
+}
+              </script>
+              <div id="times-div-TestSuite">
+              </div> <!-- times-div-TestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestSuite_(1)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestSuite (1)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestSuite_(1)');
+function tableData_TestSuite_(1)() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testMobWebEditProfile')
+data.setCell(0, 2, 'com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases')
+data.setCell(0, 3, 30959);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testMobWebSearchAddWishlist')
+data.setCell(1, 2, 'com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases')
+data.setCell(1, 3, 29752);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testMobWebUserRegistration')
+data.setCell(2, 2, 'com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases')
+data.setCell(2, 3, 25390);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testMobWebExistingUserLogin')
+data.setCell(3, 2, 'com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases')
+data.setCell(3, 3, 16607);
+window.suiteTableData['TestSuite_(1)']= { tableData: data, tableDiv: 'times-div-TestSuite_(1)'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-TestSuite_(1)">
+              </div> <!-- times-div-TestSuite_(1) -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestSuite_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestSuite (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestSuite_(0)');
+function tableData_TestSuite_(0)() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testMobileChangePassword')
+data.setCell(0, 2, 'com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases')
+data.setCell(0, 3, 62738);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testMobileUpdateProfile')
+data.setCell(1, 2, 'com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases')
+data.setCell(1, 3, 41449);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testMobUserRegistration')
+data.setCell(2, 2, 'com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases')
+data.setCell(2, 3, 20282);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testExistMobUserLogin')
+data.setCell(3, 2, 'com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases')
+data.setCell(3, 3, 17445);
+window.suiteTableData['TestSuite_(0)']= { tableData: data, tableDiv: 'times-div-TestSuite_(0)'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-TestSuite_(0)">
+              </div> <!-- times-div-TestSuite_(0) -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestSuite_(1)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestSuite (1)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestSuite_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestSuite (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestSuite_(1)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestSuite_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestSuite_(1)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initializeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-suite before">
+                <span class="method-name">preSetUp</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">initializeTest(org.testng.TestRunner@49507443)</span>
+                <span class="method-start">2 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">24501 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">initializeTestcase</span>
+                <span class="method-start">24696 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">methodSetup(public void com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases.testMobWebExistingUserLog...)</span>
+                <span class="method-start">24701 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMobWebExistingUserLogin(TMWEU1, {TestMethodName=testMobWebExistingUserLogin, TestCondition=TMWEU1})</span>
+                <span class="method-start">24701 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">41310 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testMobWebExistingUserLogin status=SUCCESS method=TestMobileWebApTestCases.testMobW...)</span>
+                <span class="method-start">46442 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">methodSetup(public void com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases.testMobWebUserRegistratio...)</span>
+                <span class="method-start">46442 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMobWebUserRegistration(TMWUR1, {TestMethodName=testMobWebUserRegistration, TestCondition=TMWUR1})</span>
+                <span class="method-start">46442 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">71834 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testMobWebUserRegistration status=SUCCESS method=TestMobileWebApTestCases.testMobWe...)</span>
+                <span class="method-start">76437 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">methodSetup(public void com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases.testMobWebEditProfile(jav...)</span>
+                <span class="method-start">76441 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMobWebEditProfile(TMWEP1, {TestMethodName=testMobWebEditProfile, TestCondition=TMWEP1})</span>
+                <span class="method-start">76441 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">107401 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testMobWebEditProfile status=SUCCESS method=TestMobileWebApTestCases.testMobWebEdit...)</span>
+                <span class="method-start">110409 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">methodSetup(public void com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases.testMobWebSearchAddWishli...)</span>
+                <span class="method-start">110414 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMobWebSearchAddWishlist(TMWAW1, {TestMethodName=testMobWebSearchAddWishlist, TestCondition=TMWAW1})</span>
+                <span class="method-start">110415 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">140168 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testMobWebSearchAddWishlist status=SUCCESS method=TestMobileWebApTestCases.testMobW...)</span>
+                <span class="method-start">142785 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeSuite</span>
+                <span class="method-start">142831 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestSuite_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initializeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-suite before">
+                <span class="method-name">preSetUp</span>
+                <span class="method-start">360 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">initializeTest(org.testng.TestRunner@34bf652a)</span>
+                <span class="method-start">360 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">19470 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">initializeTestcase</span>
+                <span class="method-start">19901 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">methodSetup(public void com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases.testExistMobUserLogin(java....)</span>
+                <span class="method-start">20142 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testExistMobUserLogin(TMUL1, {TestMethodName=testExistMobUserLogin, TestCondition=TMUL1})</span>
+                <span class="method-start">20146 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">37606 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testExistMobUserLogin status=SUCCESS method=TestMobileAppTestCases.testExistMobUser...)</span>
+                <span class="method-start">43300 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">methodSetup(public void com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases.testMobUserRegistration(jav...)</span>
+                <span class="method-start">43320 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMobUserRegistration(TMUR1, {TestMethodName=testMobUserRegistration, TestCondition=TMUR1})</span>
+                <span class="method-start">43321 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">63604 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testMobUserRegistration status=SUCCESS method=TestMobileAppTestCases.testMobUserReg...)</span>
+                <span class="method-start">69155 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">methodSetup(public void com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases.testMobileUpdateProfile(jav...)</span>
+                <span class="method-start">69166 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMobileUpdateProfile(TMUP1, {TestMethodName=testMobileUpdateProfile, TestCondition=TMUP1})</span>
+                <span class="method-start">69166 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">110617 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testMobileUpdateProfile status=SUCCESS method=TestMobileAppTestCases.testMobileUpda...)</span>
+                <span class="method-start">118384 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">methodSetup(public void com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases.testMobileChangePassword(ja...)</span>
+                <span class="method-start">118384 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMobileChangePassword(TMCP1, {TestMethodName=testMobileChangePassword, TestCondition=TMCP1})</span>
+                <span class="method-start">118384 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">181122 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testMobileChangePassword status=SUCCESS method=TestMobileAppTestCases.testMobileCha...)</span>
+                <span class="method-start">190200 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeSuite</span>
+                <span class="method-start">190235 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="0" started-at="2020-10-26T18:02:21Z" finished-at="2020-10-26T18:02:21Z">
+    <groups>
+    </groups>
+  </suite> <!-- TestSuite -->
+  <suite name="TestSuite (1)" duration-ms="142784" started-at="2020-10-26T17:59:58Z" finished-at="2020-10-26T18:02:21Z">
+    <groups>
+    </groups>
+    <test name="Test Mobile Web App Flow" duration-ms="142784" started-at="2020-10-26T17:59:58Z" finished-at="2020-10-26T18:02:21Z">
+      <class name="com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases">
+        <test-method status="PASS" signature="initializeSuite()[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases@69a10787]" name="initializeSuite" is-config="true" duration-ms="1" started-at="2020-10-26T17:59:58Z" finished-at="2020-10-26T17:59:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeSuite -->
+        <test-method status="PASS" signature="preSetUp()[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases@69a10787]" name="preSetUp" is-config="true" duration-ms="0" started-at="2020-10-26T17:59:58Z" depends-on-methods="com.mindtree.app.base.BaseTest.initializeSuite" finished-at="2020-10-26T17:59:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetUp -->
+        <test-method status="PASS" signature="initializeTest(org.testng.ITestContext)[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases@69a10787]" name="initializeTest" is-config="true" duration-ms="24499" started-at="2020-10-26T17:59:58Z" finished-at="2020-10-26T18:00:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@49507443]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases@69a10787]" name="setUp" is-config="true" duration-ms="194" started-at="2020-10-26T18:00:23Z" depends-on-methods="com.mindtree.app.base.BaseTest.initializeTest" finished-at="2020-10-26T18:00:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initializeTestcase()[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases@69a10787]" name="initializeTestcase" is-config="true" duration-ms="0" started-at="2020-10-26T18:00:23Z" finished-at="2020-10-26T18:00:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestcase -->
+        <test-method status="PASS" signature="testMobWebExistingUserLogin(java.lang.String, java.util.LinkedHashMap)[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases@69a10787]" name="testMobWebExistingUserLogin" duration-ms="16607" started-at="2020-10-26T18:00:23Z" description="Script will perform a existing user login in mobile web app" data-provider="testMobWebExistingUserLogin" finished-at="2020-10-26T18:00:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TMWEU1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{TestMethodName=testMobWebExistingUserLogin, TestCondition=TMWEU1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMobWebExistingUserLogin -->
+        <test-method status="PASS" signature="methodSetup(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases@69a10787]" name="methodSetup" is-config="true" duration-ms="0" started-at="2020-10-26T18:00:23Z" finished-at="2020-10-26T18:00:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases.testMobWebExistingUserLogin(java.lang.String,java.util.LinkedHashMap)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@14ab20d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases@69a10787]" name="tearDown" is-config="true" duration-ms="5132" started-at="2020-10-26T18:00:40Z" finished-at="2020-10-26T18:00:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testMobWebUserRegistration(java.lang.String, java.util.LinkedHashMap)[pri:1, instance:com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases@69a10787]" name="testMobWebUserRegistration" duration-ms="25390" started-at="2020-10-26T18:00:45Z" description="Script will perform a new user registration in mobile web app" data-provider="testMobWebUserRegistration" finished-at="2020-10-26T18:01:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TMWUR1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{TestMethodName=testMobWebUserRegistration, TestCondition=TMWUR1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMobWebUserRegistration -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases@69a10787]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-10-26T18:00:45Z" finished-at="2020-10-26T18:00:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMobWebExistingUserLogin status=SUCCESS method=TestMobileWebApTestCases.testMobWebExistingUserLogin(java.lang.String, java.util.LinkedHashMap)[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases@69a10787] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="methodSetup(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases@69a10787]" name="methodSetup" is-config="true" duration-ms="0" started-at="2020-10-26T18:00:45Z" finished-at="2020-10-26T18:00:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases.testMobWebUserRegistration(java.lang.String,java.util.LinkedHashMap)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@79817404]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases@69a10787]" name="tearDown" is-config="true" duration-ms="4603" started-at="2020-10-26T18:01:10Z" finished-at="2020-10-26T18:01:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases@69a10787]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-10-26T18:01:15Z" finished-at="2020-10-26T18:01:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMobWebUserRegistration status=SUCCESS method=TestMobileWebApTestCases.testMobWebUserRegistration(java.lang.String, java.util.LinkedHashMap)[pri:1, instance:com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases@69a10787] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testMobWebEditProfile(java.lang.String, java.util.LinkedHashMap)[pri:2, instance:com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases@69a10787]" name="testMobWebEditProfile" duration-ms="30959" started-at="2020-10-26T18:01:15Z" description="Script will edit an existing user profile in mobile web app" data-provider="testMobWebEditProfile" finished-at="2020-10-26T18:01:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TMWEP1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{TestMethodName=testMobWebEditProfile, TestCondition=TMWEP1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMobWebEditProfile -->
+        <test-method status="PASS" signature="methodSetup(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases@69a10787]" name="methodSetup" is-config="true" duration-ms="0" started-at="2020-10-26T18:01:15Z" finished-at="2020-10-26T18:01:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases.testMobWebEditProfile(java.lang.String,java.util.LinkedHashMap)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@2a89e295]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases@69a10787]" name="tearDown" is-config="true" duration-ms="3008" started-at="2020-10-26T18:01:46Z" finished-at="2020-10-26T18:01:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases@69a10787]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-10-26T18:01:49Z" finished-at="2020-10-26T18:01:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMobWebEditProfile status=SUCCESS method=TestMobileWebApTestCases.testMobWebEditProfile(java.lang.String, java.util.LinkedHashMap)[pri:2, instance:com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases@69a10787] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="methodSetup(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases@69a10787]" name="methodSetup" is-config="true" duration-ms="0" started-at="2020-10-26T18:01:49Z" finished-at="2020-10-26T18:01:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases.testMobWebSearchAddWishlist(java.lang.String,java.util.LinkedHashMap)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@60b169eb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method status="PASS" signature="testMobWebSearchAddWishlist(java.lang.String, java.util.LinkedHashMap)[pri:3, instance:com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases@69a10787]" name="testMobWebSearchAddWishlist" duration-ms="29752" started-at="2020-10-26T18:01:49Z" description="Script will search a produt and add to wishlist" data-provider="testMobWebSearchAddWishlist" finished-at="2020-10-26T18:02:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TMWAW1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{TestMethodName=testMobWebSearchAddWishlist, TestCondition=TMWAW1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMobWebSearchAddWishlist -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases@69a10787]" name="tearDown" is-config="true" duration-ms="2617" started-at="2020-10-26T18:02:18Z" finished-at="2020-10-26T18:02:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases@69a10787]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-10-26T18:02:21Z" finished-at="2020-10-26T18:02:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMobWebSearchAddWishlist status=SUCCESS method=TestMobileWebApTestCases.testMobWebSearchAddWishlist(java.lang.String, java.util.LinkedHashMap)[pri:3, instance:com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases@69a10787] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeSuite()[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases@69a10787]" name="closeSuite" is-config="true" duration-ms="104" started-at="2020-10-26T18:02:21Z" finished-at="2020-10-26T18:02:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSuite -->
+      </class> <!-- com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases -->
+    </test> <!-- Test Mobile Web App Flow -->
+  </suite> <!-- TestSuite (1) -->
+  <suite name="TestSuite (0)" duration-ms="189841" started-at="2020-10-26T17:56:48Z" finished-at="2020-10-26T17:59:58Z">
+    <groups>
+    </groups>
+    <test name="Test Mobile Native App Flow" duration-ms="189841" started-at="2020-10-26T17:56:48Z" finished-at="2020-10-26T17:59:58Z">
+      <class name="com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases">
+        <test-method status="PASS" signature="initializeSuite()[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases@7f416310]" name="initializeSuite" is-config="true" duration-ms="360" started-at="2020-10-26T17:56:48Z" finished-at="2020-10-26T17:56:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeSuite -->
+        <test-method status="PASS" signature="preSetUp()[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases@7f416310]" name="preSetUp" is-config="true" duration-ms="0" started-at="2020-10-26T17:56:48Z" depends-on-methods="com.mindtree.app.base.BaseTest.initializeSuite" finished-at="2020-10-26T17:56:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetUp -->
+        <test-method status="PASS" signature="initializeTest(org.testng.ITestContext)[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases@7f416310]" name="initializeTest" is-config="true" duration-ms="19109" started-at="2020-10-26T17:56:48Z" finished-at="2020-10-26T17:57:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@34bf652a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases@7f416310]" name="setUp" is-config="true" duration-ms="423" started-at="2020-10-26T17:57:07Z" depends-on-methods="com.mindtree.app.base.BaseTest.initializeTest" finished-at="2020-10-26T17:57:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initializeTestcase()[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases@7f416310]" name="initializeTestcase" is-config="true" duration-ms="0" started-at="2020-10-26T17:57:08Z" finished-at="2020-10-26T17:57:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestcase -->
+        <test-method status="PASS" signature="methodSetup(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases@7f416310]" name="methodSetup" is-config="true" duration-ms="4" started-at="2020-10-26T17:57:08Z" finished-at="2020-10-26T17:57:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases.testExistMobUserLogin(java.lang.String,java.util.LinkedHashMap)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@466c06ed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method status="PASS" signature="testExistMobUserLogin(java.lang.String, java.util.LinkedHashMap)[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases@7f416310]" name="testExistMobUserLogin" duration-ms="17445" started-at="2020-10-26T17:57:08Z" description="Script will login to an existing user id based on data provided" data-provider="testExistMobUserLogin" finished-at="2020-10-26T17:57:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TMUL1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{TestMethodName=testExistMobUserLogin, TestCondition=TMUL1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExistMobUserLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases@7f416310]" name="tearDown" is-config="true" duration-ms="5694" started-at="2020-10-26T17:57:25Z" finished-at="2020-10-26T17:57:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases@7f416310]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-10-26T17:57:31Z" finished-at="2020-10-26T17:57:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testExistMobUserLogin status=SUCCESS method=TestMobileAppTestCases.testExistMobUserLogin(java.lang.String, java.util.LinkedHashMap)[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases@7f416310] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="methodSetup(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases@7f416310]" name="methodSetup" is-config="true" duration-ms="1" started-at="2020-10-26T17:57:31Z" finished-at="2020-10-26T17:57:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases.testMobUserRegistration(java.lang.String,java.util.LinkedHashMap)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@2314d9ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method status="PASS" signature="testMobUserRegistration(java.lang.String, java.util.LinkedHashMap)[pri:1, instance:com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases@7f416310]" name="testMobUserRegistration" duration-ms="20282" started-at="2020-10-26T17:57:31Z" description="Script will create a new user based on the data provided" data-provider="testMobUserRegistration" finished-at="2020-10-26T17:57:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TMUR1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{TestMethodName=testMobUserRegistration, TestCondition=TMUR1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMobUserRegistration -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases@7f416310]" name="tearDown" is-config="true" duration-ms="5551" started-at="2020-10-26T17:57:51Z" finished-at="2020-10-26T17:57:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases@7f416310]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-10-26T17:57:57Z" finished-at="2020-10-26T17:57:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMobUserRegistration status=SUCCESS method=TestMobileAppTestCases.testMobUserRegistration(java.lang.String, java.util.LinkedHashMap)[pri:1, instance:com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases@7f416310] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="methodSetup(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases@7f416310]" name="methodSetup" is-config="true" duration-ms="0" started-at="2020-10-26T17:57:57Z" finished-at="2020-10-26T17:57:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases.testMobileUpdateProfile(java.lang.String,java.util.LinkedHashMap)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@48010247]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method status="PASS" signature="testMobileUpdateProfile(java.lang.String, java.util.LinkedHashMap)[pri:2, instance:com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases@7f416310]" name="testMobileUpdateProfile" duration-ms="41449" started-at="2020-10-26T17:57:57Z" description="Script will login and update the profile data as per data provided" data-provider="testMobileUpdateProfile" finished-at="2020-10-26T17:58:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TMUP1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{TestMethodName=testMobileUpdateProfile, TestCondition=TMUP1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMobileUpdateProfile -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases@7f416310]" name="tearDown" is-config="true" duration-ms="7767" started-at="2020-10-26T17:58:38Z" finished-at="2020-10-26T17:58:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases@7f416310]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-10-26T17:58:46Z" finished-at="2020-10-26T17:58:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMobileUpdateProfile status=SUCCESS method=TestMobileAppTestCases.testMobileUpdateProfile(java.lang.String, java.util.LinkedHashMap)[pri:2, instance:com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases@7f416310] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="methodSetup(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases@7f416310]" name="methodSetup" is-config="true" duration-ms="0" started-at="2020-10-26T17:58:46Z" finished-at="2020-10-26T17:58:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases.testMobileChangePassword(java.lang.String,java.util.LinkedHashMap)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@7d8a858]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method status="PASS" signature="testMobileChangePassword(java.lang.String, java.util.LinkedHashMap)[pri:3, instance:com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases@7f416310]" name="testMobileChangePassword" duration-ms="62738" started-at="2020-10-26T17:58:46Z" description="Script will update the current passowrd and relogin with new password" data-provider="testMobileChangePassword" finished-at="2020-10-26T17:59:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TMCP1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{TestMethodName=testMobileChangePassword, TestCondition=TMCP1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMobileChangePassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases@7f416310]" name="tearDown" is-config="true" duration-ms="9078" started-at="2020-10-26T17:59:49Z" finished-at="2020-10-26T17:59:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases@7f416310]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-10-26T17:59:58Z" finished-at="2020-10-26T17:59:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMobileChangePassword status=SUCCESS method=TestMobileAppTestCases.testMobileChangePassword(java.lang.String, java.util.LinkedHashMap)[pri:3, instance:com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases@7f416310] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeSuite()[pri:0, instance:com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases@7f416310]" name="closeSuite" is-config="true" duration-ms="396" started-at="2020-10-26T17:59:58Z" finished-at="2020-10-26T17:59:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSuite -->
+      </class> <!-- com.mindtree.AppiumInternalAssessment.TestMobileAppTestCases -->
+    </test> <!-- Test Mobile Native App Flow -->
+  </suite> <!-- TestSuite (0) -->
+</testng-results>

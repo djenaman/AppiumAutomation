@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite (1)]">
+  <test thread-count="5" name="Test Mobile Web App Flow(failed)">
+    <classes>
+      <class name="com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testMobWebExistingUserLogin"/>
+          <include name="initializeTestcase"/>
+          <include name="preSetUp"/>
+          <include name="tearDown"/>
+          <include name="initializeSuite"/>
+          <include name="setUp"/>
+          <include name="methodSetup"/>
+          <include name="initializeTest"/>
+        </methods>
+      </class> <!-- com.mindtree.AppiumInternalAssessment.TestMobileWebApTestCases -->
+    </classes>
+  </test> <!-- Test Mobile Web App Flow(failed) -->
+</suite> <!-- Failed suite [TestSuite (1)] -->
